@@ -1,8 +1,8 @@
 # 🧪 Automação de Testes com Cypress – Busca no Blog do Agi
+[![Cypress Tests](https://github.com/deivison-andrade/banco-automacao/actions/workflows/cypress.yml/badge.svg)](https://github.com/deivison-andrade/banco-automacao/actions)
 
 # 🧪 Automação de Testes com Cypress
 
-[![Cypress Tests](https://github.com/deivison-andrade/banco-automacao/actions/workflows/cypress.yml/badge.svg)](https://github.com/deivison-andrade/banco-automacao/actions)
 
 Este projeto contém testes automatizados utilizando **Cypress** para validar a funcionalidade de busca no site:
 

@@ -6,7 +6,7 @@ describe('Busca no Blog do Agi', () => {
     searchPage.acessarSite();
   });
 
-  it('Deve realizar busca com termo válido', () => {
+  it.only('Deve realizar busca com termo válido', () => {
 
     searchPage.abrirBusca();
     searchPage.buscar('pix');
@@ -23,5 +23,4 @@ describe('Busca no Blog do Agi', () => {
 
   });
 
-  //teste//
 });

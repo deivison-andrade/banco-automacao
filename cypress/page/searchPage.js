@@ -2,6 +2,8 @@ class SearchPage {
 
   acessarSite() {
     cy.visit('https://blogdoagi.com.br');
+    cy.get('body');
+    cy.should('be.visible');
   }
 
   abrirBusca() {
@@ -9,11 +11,16 @@ class SearchPage {
     cy.reload();
     cy.contains('Produtos')
       .click()
-      .wait(5000);
+      .wait(3000);
 
-    cy.get('a[aria-label="Search icon link"]:visible')
-      .should('exist')
-      .click();
+// abrir a busca
+cy.get('a[aria-label="Search button"]')
+ //.should('be.visible')
+  .click();
+
+// esperar o campo aparecer
+cy.get('.search-field')
+  .should('be.visible')
   }
 
   buscar(termo) {

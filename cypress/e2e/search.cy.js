@@ -44,7 +44,6 @@ describe('Busca no Blog do Agi', () => {
       .should('be.visible')
       .type('asfasfas{enter}');
       
-
     // Validar resultados
     cy.contains('Resultados encontrados para:')
   .should('contain.text', 'asfasfas');
@@ -53,4 +52,6 @@ describe('Busca no Blog do Agi', () => {
   .should('be.visible')
   });
 
+
+  
 });

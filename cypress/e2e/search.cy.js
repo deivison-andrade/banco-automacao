@@ -43,6 +43,7 @@ describe('Busca no Blog do Agi', () => {
     cy.get('.search-field')
       .should('be.visible')
       .type('asfasfas{enter}');
+      
 
     // Validar resultados
     cy.contains('Resultados encontrados para:')

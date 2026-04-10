@@ -1,4 +1,4 @@
-# 🧪 Automação de Testes com Cypress – Busca no Blog do Agi
+# Automação de Testes com Cypress – Busca no Blog do Agi
 [![Cypress Tests](https://github.com/deivison-andrade/banco-automacao/actions/workflows/cypress.yml/badge.svg)](https://github.com/deivison-andrade/banco-automacao/actions)
 
 # 🧪 Automação de Testes com Cypress
@@ -6,19 +6,19 @@
 
 Este projeto contém testes automatizados utilizando **Cypress** para validar a funcionalidade de busca no site:
 
-👉 https://blogdoagi.com.br
+ https://blogdoagi.com.br
 
 ---
 
-# 📋 Pré-requisitos
+# Pré-requisitos
 
 Antes de rodar o projeto, você precisa ter instalado na sua máquina:
 
-## ✅ 1. Node.js
+##  1. Node.js
 
 O Cypress roda em cima do Node.
 
-👉 Baixe aqui: https://nodejs.org/
+ Baixe aqui: https://nodejs.org/
 
 Após instalar, valide no terminal:
 
@@ -53,7 +53,7 @@ cd banco-automacao
 
 ---
 
-# 📦 Instalando dependências
+#  Instalando dependências
 
 Execute:
 
@@ -61,14 +61,14 @@ Execute:
 npm install
 ```
 
-👉 Isso vai instalar:
+ Isso vai instalar:
 
 * Cypress
 * Todas as dependências do projeto
 
 ---
 
-# 🚀 Instalando o Cypress (caso não tenha)
+# Instalando o Cypress (caso não tenha)
 
 Se for a primeira vez:
 
@@ -78,16 +78,16 @@ npx cypress install
 
 ---
 
-# ▶️ Como rodar os testes
+# ▶ Como rodar os testes
 
-## 🧪 Modo interativo (com interface)
+##  Modo interativo (com interface)
 
 ```bash
 npx cypress open
 ```
 
-👉 Vai abrir a interface do Cypress
-👉 Clique no arquivo de teste (`search.cy.js`) para executar
+ Vai abrir a interface do Cypress
+ Clique no arquivo de teste (`search.cy.js`) para executar
 
 ---
 
@@ -102,15 +102,15 @@ npx cypress run
 npx cypress open
 ```
 
-👉 Executa todos os testes automaticamente no terminal
+ Executa todos os testes automaticamente no terminal
 
 ---
 
-# 📸 Evidências geradas
+#  Evidências geradas
 
 O Cypress já gera automaticamente:
 
-## 📷 Screenshots (quando falha)
+##  Screenshots (quando falha)
 
 ```bash
 cypress/screenshots/
@@ -124,7 +124,7 @@ cypress/videos/
 
 ---
 
-# 📁 Estrutura do projeto
+#  Estrutura do projeto
 
 ```bash
 cypress/
@@ -139,18 +139,18 @@ cypress/
 
 ---
 
-# 🧠 O que está sendo testado
+#  O que está sendo testado
 
 Os testes cobrem:
 
-## 🔎 Busca com termo válido
+##  Busca com termo válido
 
 * Acessa o site
 * Abre a busca
 * Digita "pix"
 * Valida se os resultados aparecem corretamente
 
-## ❌ Busca com termo inválido
+##  Busca com termo inválido
 
 * Realiza busca com texto inexistente
 * Valida mensagem:
@@ -158,21 +158,8 @@ Os testes cobrem:
 
 ---
 
-# 🏗️ Padrão utilizado
 
-Foi aplicado o padrão:
-
-👉 **Page Object Model (POM)**
-
-Vantagens:
-
-* Código mais organizado
-* Reutilização de funções
-* Manutenção facilitada
-
----
-
-# ⚙️ Configurações importantes
+#  Configurações importantes
 
 Arquivo:
 
@@ -188,11 +175,11 @@ Contém:
 
 ---
 
-# 🛠️ Possíveis problemas e soluções
+#  Possíveis problemas e soluções
 
-## ❌ Erro: Cypress não abre
+##  Erro: Cypress não abre
 
-👉 Rode:
+ Rode:
 
 ```bash
 npx cypress install
@@ -200,9 +187,9 @@ npx cypress install
 
 ---
 
-## ❌ Erro de dependências
+##  Erro de dependências
 
-👉 Rode novamente:
+ Rode novamente:
 
 ```bash
 npm install
@@ -210,25 +197,16 @@ npm install
 
 ---
 
-## ❌ Erro de permissão (Mac/Linux)
+##  Erro de permissão (Mac/Linux)
 
 ```bash
 sudo npm install
 ```
 
-
 ---
 
-# 👨‍💻 Autor
+#  Autor
 
 Projeto desenvolvido por **Deivison Andrade**
 
 ---
-
-
-
-
-
-
-
-
